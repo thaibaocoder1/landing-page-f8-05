@@ -1,0 +1,111 @@
+.clients {
+  padding: 6rem 0;
+  &__content {
+    width: 435px;
+    margin: auto;
+    text-align: center;
+  }
+  &__title.section-title {
+    display: inline-block;
+    margin-bottom: 1.2rem;
+  }
+  &__heading.section-heading {
+    font-size: 4rem;
+    width: 359px;
+    margin: auto;
+  }
+  &__desc.section-desc {
+    font-size: 1.6rem;
+  }
+  &__list {
+    margin-top: 7rem;
+    display: flex;
+    column-gap: 30px;
+  }
+  &-item {
+    width: 100%;
+    &__inner {
+      padding: 42px 28px;
+      border: 1px solid #dfe2e8;
+      border-radius: 6px;
+      transition: all 0.25s linear;
+      position: relative;
+      &::after {
+        content: "";
+        width: 8rem;
+        height: 8rem;
+        background-color: #fff;
+        border: 1px solid;
+        border-color: transparent #dfe2e8 #dfe2e8 transparent;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        translate: -50% 50%;
+        rotate: 45deg;
+      }
+      &:hover {
+        background-color: #fff;
+        filter: drop-shadow(0px 22px 54px rgba(0, 0, 0, 0.07));
+      }
+    }
+    &__desc {
+      color: #696d76;
+      font-size: 2.2rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.54;
+      margin: auto;
+      width: 514px;
+    }
+    &__avatar {
+      width: 104px;
+      height: 104px;
+      border-radius: 52px;
+      margin: auto;
+      background: #1a0616;
+    }
+    &__img {
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      display: block;
+      object-fit: cover;
+    }
+    &__content {
+      margin-top: 90px;
+      text-align: center;
+    }
+    &__name {
+      color: #070052;
+      font-size: 2.6rem;
+      font-weight: 600;
+      line-height: 1.38;
+      margin-top: 20px;
+    }
+    &__job {
+      margin-top: 2px;
+      color: #696d76;
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 1.67;
+    }
+  }
+  &__dots {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+  }
+  &__dot-item {
+    width: 22px;
+    height: 6px;
+    border-radius: 2px;
+    border: 2px solid #9b9fab;
+    cursor: pointer;
+    &--active {
+      border-color: #7264d6;
+      background-color: #7264d6;
+    }
+  }
+}

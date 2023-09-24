@@ -1,0 +1,40 @@
+.header {
+  padding-top: 42px;
+  .navbar {
+    display: flex;
+    align-items: center;
+    &__list {
+      display: flex;
+      margin-left: 4.6rem;
+    }
+    &-item__link {
+      color: #212832;
+      font-size: 1.6rem;
+      font-weight: 600;
+      line-height: 1.75;
+      padding: 0 2.4rem;
+      position: relative;
+      transition: all 0.2s;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: #212832;
+        text-underline-offset: 8px;
+      }
+    }
+    &-buttons {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 0 2.8rem;
+    }
+    &-button__login {
+      color: #212832;
+      font-size: 1.6rem;
+      font-weight: 600;
+      line-height: 1.75;
+    }
+    &-button__signup {
+      min-width: 113px;
+    }
+  }
+}
