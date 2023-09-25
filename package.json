@@ -1,0 +1,20 @@
+{
+  "name": "project-f8-05",
+  "version": "1.0.0",
+  "description": "Landing page 05",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass sass:css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaibaocoder1/landing-page-f8-05.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaibaocoder1/landing-page-f8-05/issues"
+  },
+  "homepage": "https://github.com/thaibaocoder1/landing-page-f8-05#readme"
+}

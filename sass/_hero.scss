@@ -115,15 +115,14 @@
     }
   }
   &-funds {
-    width: 124px;
-    height: 68px;
+    min-width: 124px;
     border-radius: 10px;
     background: #439f90;
     padding: 2rem 1.5rem;
     display: inline-flex;
     position: absolute;
     bottom: 6.6rem;
-    right: 19rem;
+    right: 16.5rem;
     gap: 0 1.1rem;
     &__content-icon {
       flex-shrink: 0;
@@ -133,6 +132,7 @@
       color: #fff;
       font-size: 1.4rem;
       font-weight: 600;
+      text-align: left;
     }
     &__content-text {
       color: #fff;

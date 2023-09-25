@@ -100,7 +100,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="home">
       <div class="container">
         <!-- Navbar -->
         <div class="navbar">
@@ -113,16 +113,16 @@
           <!-- Navigation -->
           <nav class="navbar__list">
             <li class="navbar-item">
-              <a href="#!" class="navbar-item__link">Home</a>
+              <a href="#" class="navbar-item__link">Home</a>
             </li>
             <li class="navbar-item">
-              <a href="#!" class="navbar-item__link">Products</a>
+              <a href="#products" class="navbar-item__link">Products</a>
             </li>
             <li class="navbar-item">
-              <a href="#!" class="navbar-item__link">Features</a>
+              <a href="#features" class="navbar-item__link">Features</a>
             </li>
             <li class="navbar-item">
-              <a href="#!" class="navbar-item__link">Blog</a>
+              <a href="#blog" class="navbar-item__link">Blog</a>
             </li>
           </nav>
           <!-- Action -->
@@ -203,7 +203,7 @@
     </section>
     <main>
       <!-- Works -->
-      <section class="works">
+      <section class="works" id="products">
         <div class="container">
           <div class="works__body">
             <figure class="works__media">
@@ -266,7 +266,7 @@
         </div>
       </section>
       <!-- Features -->
-      <section class="features">
+      <section class="features" id="features">
         <div class="container">
           <div class="features__list">
             <section class="features-item">
@@ -378,70 +378,283 @@
           </div>
         </div>
       </section>
-      <!-- Clients -->
-      <seciton class="clients">
+      <!-- Testimonials -->
+      <seciton class="testimonials">
         <div class="container">
-          <div class="section-box clients__content">
-            <p class="section-title clients__title">Our Testimonial</p>
-            <h2 class="section-heading clients__heading">What Clients Says</h2>
-            <p class="section-desc clients__desc">
+          <div class="section-box testimonials__content">
+            <p class="section-title testimonials__title">Our Testimonial</p>
+            <h2 class="section-heading testimonials__heading">
+              What Clients Says
+            </h2>
+            <p class="section-desc testimonials__desc">
               Read what clients says about us and about our online banking
               services that may inspire you
             </p>
           </div>
-          <section class="clients__list">
+          <section class="testimonials__list">
             <!-- Box 1 -->
-            <article class="clients-item">
-              <div class="clients-item__inner">
-                <p class="clients-item__desc">
+            <article class="testimonials-item">
+              <div class="testimonials-item__inner">
+                <p class="testimonials-item__desc">
                   Fantastic platform for online banking. The best online banking
                   platform I have used. Payments, loans, and money transfers
                   have never been so much easier before. I am very much happy
                   about this great online bank.
                 </p>
               </div>
-              <div class="clients-item__content">
-                <figure class="clients-item__avatar">
+              <div class="testimonials-item__content">
+                <figure class="testimonials-item__avatar">
                   <img
                     src="./images/avatar-1.jpg"
                     alt=""
-                    class="clients-item__img"
+                    class="testimonials-item__img"
                   />
                 </figure>
-                <p class="clients-item__name">Alastair Cook</p>
-                <p class="clients-item__job">Businessmen</p>
+                <p class="testimonials-item__name">Alastair Cook</p>
+                <p class="testimonials-item__job">Businessmen</p>
               </div>
             </article>
             <!-- Box 2 -->
-            <article class="clients-item">
-              <div class="clients-item__inner">
-                <p class="clients-item__desc">
+            <article class="testimonials-item">
+              <div class="testimonials-item__inner">
+                <p class="testimonials-item__desc">
                   Fantastic platform for online banking. The best online banking
                   platform I have used. Payments, loans, and money transfers
                   have never been so much easier before. I am very much happy
                   about this great online bank.
                 </p>
               </div>
-              <div class="clients-item__content">
-                <figure class="clients-item__avatar">
+              <div class="testimonials-item__content">
+                <figure class="testimonials-item__avatar">
                   <img
                     src="./images/avatar-1.jpg"
                     alt=""
-                    class="clients-item__img"
+                    class="testimonials-item__img"
                   />
                 </figure>
-                <p class="clients-item__name">Alastair Foaks</p>
-                <p class="clients-item__job">Businessmen</p>
+                <p class="testimonials-item__name">Alastair Foaks</p>
+                <p class="testimonials-item__job">Businessmen</p>
               </div>
             </article>
           </section>
-          <div class="clients__dots">
-            <div class="clients__dot-item clients__dot-item--active"></div>
-            <div class="clients__dot-item"></div>
-            <div class="clients__dot-item"></div>
+          <div class="testimonials__dots">
+            <div
+              class="testimonials__dot-item testimonials__dot-item--active"
+            ></div>
+            <div class="testimonials__dot-item"></div>
+            <div class="testimonials__dot-item"></div>
           </div>
         </div>
       </seciton>
+      <!-- Blog -->
+      <section class="blog" id="blog">
+        <div class="container">
+          <div class="section-box blog__top">
+            <div class="blog__inner">
+              <p class="section-title blog__title">Our Blog</p>
+              <h2 class="section-heading blog__heading">Get The Updates</h2>
+              <p class="section-desc blog__desc">
+                Read our blog for the regular updates about us and about our
+                online banking services that may inspire you
+              </p>
+            </div>
+            <a href="#!" class="btn blog__action">Read All</a>
+          </div>
+          <div class="blog__post">
+            <!-- Post 1 -->
+            <article class="blog-item">
+              <figure class="blog-item__thumb">
+                <img src="./images/blog-1.jpg" alt="" class="blog-item__img" />
+              </figure>
+              <div class="blog-item__content">
+                <time class="blog-item__date">July 03, 2022</time>
+                <a href="#" class="blog-item__link">
+                  <h3 class="blog-item__title">
+                    Online bank is the best and secure way to save in the
+                    future...
+                  </h3>
+                </a>
+                <a href="#!" class="blog-item__view">Read Blog</a>
+              </div>
+            </article>
+            <!-- Post 2 -->
+            <article class="blog-item">
+              <figure class="blog-item__thumb">
+                <img src="./images/blog-2.jpg" alt="" class="blog-item__img" />
+              </figure>
+              <div class="blog-item__content">
+                <time class="blog-item__date">July 03, 2022</time>
+                <a href="#" class="blog-item__link">
+                  <h3 class="blog-item__title">
+                    Why do you need to open a bank account in online..
+                  </h3>
+                </a>
+                <a href="#!" class="blog-item__view">Read Blog</a>
+              </div>
+            </article>
+            <!-- Post 3 -->
+            <article class="blog-item">
+              <figure class="blog-item__thumb">
+                <img src="./images/blog-3.jpg" alt="" class="blog-item__img" />
+              </figure>
+              <div class="blog-item__content">
+                <time class="blog-item__date">July 03, 2022</time>
+                <a href="#" class="blog-item__link">
+                  <h3 class="blog-item__title">
+                    The benefits that we get from credit card at anytime...
+                  </h3>
+                </a>
+                <a href="#!" class="blog-item__view">Read Blog</a>
+              </div>
+            </article>
+            <!-- Post 4 -->
+            <article class="blog-item">
+              <figure class="blog-item__thumb">
+                <img src="./images/blog-4.jpg" alt="" class="blog-item__img" />
+              </figure>
+              <div class="blog-item__content">
+                <time class="blog-item__date">July 03, 2022</time>
+                <a href="#" class="blog-item__link">
+                  <h3 class="blog-item__title">
+                    How to manage your money in online in this busy days...
+                  </h3>
+                </a>
+                <a href="#!" class="blog-item__view">Read Blog</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- App -->
+      <section class="app">
+        <div class="container">
+          <div class="app__inner">
+            <div class="section-box app__top">
+              <p class="section-title app__title">Our App</p>
+              <h2 class="section-heading app__heading">Download the Apps</h2>
+              <p class="section-desc app__desc">
+                Download our mobile apps and get started today with a special
+                online bank and move faster
+              </p>
+            </div>
+            <div class="app__buttons">
+              <a href="#!" class="app__button-item">
+                <img src="./images/google-play.svg" alt="" />
+              </a>
+              <a href="#!" class="app__button-item">
+                <img src="./images/app-store.svg" alt="" />
+              </a>
+            </div>
+            <div class="app__decord">
+              <img
+                src="./images/star-icon.svg"
+                alt=""
+                class="app__decord-img"
+              />
+              <img
+                src="./images/star-icon.svg"
+                alt=""
+                class="app__decord-img"
+              />
+              <img
+                src="./images/star-icon.svg"
+                alt=""
+                class="app__decord-img"
+              />
+              <img
+                src="./images/star-icon.svg"
+                alt=""
+                class="app__decord-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <!-- Col 1 -->
+          <div class="footer-col">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <!-- Col 2 -->
+          <div class="footer-col">
+            <h2 class="footer-col__heading">Sitemap</h2>
+            <ul class="footer-col__list">
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Home</a>
+              </li>
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Abouts</a>
+              </li>
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Growers</a>
+              </li>
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Merchants</a>
+              </li>
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Col 3 -->
+          <div class="footer-col">
+            <h2 class="footer-col__heading">Socials</h2>
+            <ul class="footer-col__list">
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Facebook</a>
+              </li>
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Linkedin</a>
+              </li>
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Instargram</a>
+              </li>
+              <li class="footer-col__item">
+                <a href="#!" class="footer-col__link">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Col 4 -->
+          <div class="footer-col footer-col--divide">
+            <h2 class="footer-col__heading">Head Office</h2>
+            <p class="footer-col__address">
+              Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22,
+              Charlottesville, CA 45565
+            </p>
+            <h2 class="footer-col__heading">News letter</h2>
+            <form action="" class="search-form">
+              <input
+                type="email"
+                name="email"
+                id=""
+                class="search-form__input"
+                placeholder="Email address..."
+              />
+              <button type="submit" class="btn search-form__button">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__row">
+          <div class="footer-col">
+            <a href="mailto: email@gmail.com" class="footer-col__email">
+              email@gmail.com
+            </a>
+          </div>
+          <div class="footer-col">
+            <a href="tel: (123) 456-7890" class="footer-col__tel">
+              (123) 456-7890
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copyright">© 2020 Ligft Media All rights reserved.</p>
+    </footer>
+    <script src="./js/app.js"></script>
   </body>
 </html>

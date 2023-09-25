@@ -1,21 +1,19 @@
-.clients {
-  padding: 6rem 0;
+.testimonials {
   &__content {
-    width: 435px;
-    margin: auto;
+    margin-top: 8rem;
     text-align: center;
   }
   &__title.section-title {
     display: inline-block;
-    margin-bottom: 1.2rem;
   }
   &__heading.section-heading {
     font-size: 4rem;
-    width: 359px;
-    margin: auto;
+    margin-bottom: 18px;
   }
   &__desc.section-desc {
     font-size: 1.6rem;
+    margin: auto;
+    width: 435px;
   }
   &__list {
     margin-top: 7rem;
